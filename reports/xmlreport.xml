@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="24.672">
+    <testcase classname="Coupon related scenarios" name="Add new coupon" time="10.436">
+        <system-out><![CDATA[Given user navigated to login page..........................................passed
+When user enters "admin" and "Admin@123"....................................passed
+Then user should see Dashboard..............................................passed
+Given user Hovers on share icon.............................................passed
+When user clicks on Coupons button..........................................passed
+And user should see Coupons page............................................passed
+And user Clicks on Add new coupon button....................................passed
+And user enters all details and clicks save button..........................passed
+Then user should see coupon name in coupons list............................passed
+And user should see modification success message............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Coupon related scenarios" name="Edit coupon" time="6.125">
+        <system-out><![CDATA[Given user navigated to login page..........................................passed
+When user enters "admin" and "Admin@123"....................................passed
+Then user should see Dashboard..............................................passed
+Given user Hovers on share icon.............................................passed
+When user clicks on Coupons button..........................................passed
+And user should see Coupons page............................................passed
+Given user clicks on Edit icon..............................................passed
+When user updates Type field dropdown.......................................passed
+And user clicks on save button..............................................passed
+Then user should see modification success message...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Coupon related scenarios" name="Delete coupon" time="7.887">
+        <system-out><![CDATA[Given user navigated to login page..........................................passed
+When user enters "admin" and "Admin@123"....................................passed
+Then user should see Dashboard..............................................passed
+Given user Hovers on share icon.............................................passed
+When user clicks on Coupons button..........................................passed
+And user should see Coupons page............................................passed
+Given user selects coupon to delete.........................................passed
+When user clicks on delete icon.............................................passed
+And user click on OK from delete alert......................................passed
+Then user should see modification success message...........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
